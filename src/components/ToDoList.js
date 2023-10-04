@@ -19,7 +19,7 @@ const ToDoList = () => {
     return (
         
         <div className="todo-list">
-            <input className="todo-input" type="text" value={newTask} onChange={(e)=>setNewTask(e.target.value)} />
+            <input className="todoList-input" type="text" value={newTask} onChange={(e)=>setNewTask(e.target.value)} />
             <button className="todo-add" onClick={addTask}>ADD</button>
             
             

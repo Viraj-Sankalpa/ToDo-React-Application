@@ -37,9 +37,6 @@
   transition: background-color 0.2s;
 }
 
-.todo-add:hover {
-  background-color: #283593;
-}
 
 .todo-list ul {
   list-style: none;
@@ -118,6 +115,7 @@ button {
 .todo-add {
   background-color: #4CAF50;
   color: white;
+  margin: 20px;
 }
 
 .todo-add:hover {
@@ -137,7 +135,7 @@ button {
 
 /* Input */
 
-.todo-input {
+.todoList-input {
   padding: 16px;
   border: 1px solid #ccc; 
   border-radius: 4px;
