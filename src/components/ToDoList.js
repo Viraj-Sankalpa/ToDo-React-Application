@@ -29,6 +29,7 @@ const ToDoList = () => {
             {tasks.map((tasks,index)=>(
                 <li key={index}>
                     <div className="todo-item">
+                        
                     <div className="todo-text">{tasks.task}</div>
                     <button className="todo-remove" onClick={()=>removeTask(tasks)}>REMOVE</button>
                     </div>
